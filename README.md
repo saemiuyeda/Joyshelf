@@ -1,8 +1,6 @@
 # Joyshelf ☀️
 
-Sistema desenvolvido em Python e SQLite para registro e gerenciamento de livros, com o objetivo de permitir que o 
-usuário mantenha uma estante virtual.
-
+Sistema de gerenciamento de livros desenvolvido em Python, utilizando SQLite para persistência de dados. O JoyShelf permite cadastrar, organizar e gerenciar uma estante virtual através de uma aplicação executada no terminal.
 ## Funcionalidades
 
 - Cadastro de livros

@@ -5,12 +5,17 @@ usuário mantenha uma estante virtual.
 
 ## Funcionalidades
 
-| # | Funcionalidade | Descrição |
-|---|----------------|-----------|
-| 1 | Adicionar livro | Registra um novo livro |
-| 2 | Filtrar livros | Filtra por todos, ordem alfabética, gênero, editora, autor(a) e status |
-| 3 | Editar livro | Edita as informações de um livro |
-| 4 | Excluir livro | Remove o livro desejado |
+- Cadastro de livros
+- Listagem de livros cadastrados
+- Filtragem por:
+  - título
+  - gênero
+  - editora
+  - autor
+  - status de leitura
+- Ordenação alfabética
+- Atualização das informações de livros
+- Exclusão de livros
 
 ## Tecnologias utilizadas
 
@@ -39,28 +44,14 @@ python main.py
 
 ## Conceitos aplicados
 
-### Python
+- Desenvolvimento de aplicação CRUD
+- Persistência de dados utilizando SQLite
+- Operações SQL (CREATE, INSERT, SELECT, UPDATE e DELETE)
+- Consultas com filtros e ordenação
+- Manipulação de dados em Python
+- Tratamento de exceções
+- Organização de código em módulos
 
-- Manipulação de banco de dados com sqlite3
-- Manipulação de dicionários
-- Funções reutilizáveis
-- Método .items() para iteração em pares do dicionário
-- Método .append() para adicionar elementos à lista
-- Método .join() para transformar lista de strings em uma única string
-- Laço for
-- Laço `while` com controle de fluxo
-- Estruturas condicionais `if/elif/else`
-- Tratamento de exceções com `try/except`
-- Formatação com f-strings
+## Objetivo do projeto
 
-### SQL
-
-#### Operações CRUD
-  - CREATE TABLE IF NOT EXISTS
-  - INSERT INTO
-  - SELECT
-  - UPDATE
-  - DELETE
-#### Filtragem e ordenação dos dados
-  - WHERE
-  - ORDER BY
+O JoyShelf foi desenvolvido como meu primeiro projeto completo em Python, com o objetivo de aplicar conceitos de programação, banco de dados e desenvolvimento de sistemas através da criação de uma aplicação funcional.
